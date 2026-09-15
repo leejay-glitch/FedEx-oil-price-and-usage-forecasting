@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Ignore all data files and raw downloads
+data/raw/*
+data/processed/*
+
+# Keep folder structure tracked in Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Ignore data formats universally
+*.csv
+*.zip
+*.json
+*.xlsx
